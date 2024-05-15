@@ -1,7 +1,7 @@
 # openmc_nuclear_lunch
 1.) Install some dependencies. Note, package names may depend on os. The below are for ubuntu:
 ```bash
-sudo apt-get install libgl1-mesa-glx python3.10-venv
+sudo apt-get install libgl1-mesa-glx python3.10-venv libglu1-mesa libxcursor1 libxinerama1
 ```
 2.) Set up a python environment 
 ```bash
