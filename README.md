@@ -20,3 +20,7 @@ cd openmc_install_scripts/<your-os>
 ```
 ./install-all.sh --prefix=$VIRTUAL_ENV
 ```
+6.) Install the CAD_to_OpenMC converter tool to your virtual environment
+```
+pip install CAD_to_OpenMC
+```
