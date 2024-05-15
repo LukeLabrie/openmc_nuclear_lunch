@@ -11,9 +11,9 @@ python3 -m venv <environment_name>
 ```bash
 source <environment_name>/bin/activate 
 ```
-4.) Install numpy, which is required for the openmc build (via moab)
+4.) Install some dependencies with pip
 ```bash
-pip install numpy
+pip install numpy CAD_to_OpenMC
 ```
 5.) Clone [openmc_install_scripts](https://github.com/openmsr/openmc_install_scripts)
 ```bash
