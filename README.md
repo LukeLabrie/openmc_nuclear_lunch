@@ -11,19 +11,23 @@ python3 -m venv <environment_name>
 ```bash
 source <environment_name>/bin/activate 
 ```
-4.) Clone [openmc_install_scripts](https://github.com/openmsr/openmc_install_scripts)
+4.) Install numpy, which is required for the openmc build (via moab)
+```bash
+pip install numpy
+```
+5.) Clone [openmc_install_scripts](https://github.com/openmsr/openmc_install_scripts)
 ```bash
 git clone https://github.com/openmsr/openmc_install_scripts.git
 ```
-5.) Go into the directory associated with your OS
+6.) Go into the directory associated with your OS
 ```
 cd openmc_install_scripts/<your-os>
 ```
-6.) Install to your environment
+7.) Install to your environment
 ```
 ./install-all.sh --prefix=$VIRTUAL_ENV
 ```
-7.) Install the CAD_to_OpenMC converter tool to your virtual environment
+8.) Install the CAD_to_OpenMC converter tool to your virtual environment
 ```
 pip install CAD_to_OpenMC
 ```
