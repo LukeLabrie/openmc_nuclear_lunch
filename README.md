@@ -1,4 +1,10 @@
 # openmc_nuclear_lunch
+If you have an arch-based distro (arch, manjaro, etc.), you can run:
+```bash
+sudo pacman -Syy yay && yay -S openmc-git
+```
+Else, follow these instructions:
+
 1.) Install some dependencies. Note, package names may depend on os. The below are for ubuntu:
 ```bash
 sudo apt-get install libgl1-mesa-glx python3.10-venv libglu1-mesa libxcursor1 libxinerama1 wget
