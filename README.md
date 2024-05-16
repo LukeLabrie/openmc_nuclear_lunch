@@ -13,7 +13,7 @@ source <environment_name>/bin/activate
 ```
 4.) Install some dependencies with pip
 ```bash
-pip install numpy CAD_to_OpenMC
+pip install numpy
 ```
 5.) Clone [openmc_install_scripts](https://github.com/openmsr/openmc_install_scripts)
 ```bash
