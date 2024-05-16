@@ -40,5 +40,3 @@ tallies = openmc.Tallies()
 model = openmc.model.Model(geometry, mats, settings, tallies)
 sp_filename = model.run()
 
-sp = openmc.StatePoint(sp_filename)
-
